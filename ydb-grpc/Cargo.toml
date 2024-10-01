@@ -14,7 +14,7 @@ prost-types = "0.10"
 pbjson = "0.3"
 pbjson-types = "0.3"
 serde={version="1.0", features=["derive"]}
-tonic = {version = "0.7", features=["tls", "tls-roots", "tls-webpki-roots"]}
+tonic = {version = "0.8", features=["tls", "tls-roots", "tls-webpki-roots"]}
 
 [build-dependencies]
 ydb-grpc-helpers = { version = "0.0.7", path="../ydb-grpc-helpers"}
